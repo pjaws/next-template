@@ -1,3 +1,15 @@
+# Next-Template
+
+This is a template repository for new Next.js projects. It includes some opinionated defaults that I'm sick of recreating every time I start a new project:
+
+- Styled-Components with a `theme.js` file that follows the Theme Specification
+- A `<GlobalStyle />` component based heavily on Andy Bell's Modern CSS Reset
+- EditorConfig set to 2 spaces
+- ESLint with `eslint-config-airbnb`, `eslint-plugin-react`, and `eslint-plugin-prettier`
+- A `.prettierrc` file with a few custom settings
+
+Original Next.js README follows below...
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
