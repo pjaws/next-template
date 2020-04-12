@@ -16,7 +16,7 @@ export default {
     yellow: '#F1AF1B',
     red: '#F7625A',
   },
-  space: [0, 4, 8, 16, 32, 64, 128, 256],
+  space: [0, 4, 8, 16, 32, 64, 96, 128, 256],
   fonts: {
     body: 'acumin-pro, sans-serif',
     heading: 'acumin-pro, sans-serif',
