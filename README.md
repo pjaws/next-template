@@ -2,8 +2,8 @@
 
 This is a template repository for new Next.js projects. It includes some opinionated defaults that I'm sick of recreating every time I start a new project:
 
-- Styled-Components with a `theme.js` file that follows the Theme Specification
-- A `<GlobalStyle />` component based heavily on Andy Bell's Modern CSS Reset
+- Styled-Components with a `theme.js` file that follows the [System UI Theme Specification](https://github.com/system-ui/theme-specification)
+- A `<GlobalStyle />` component based heavily on Andy Bell's Modern CSS Reset and included on all pages via a custom `_app.js`
 - EditorConfig set to 2 spaces
 - ESLint with `eslint-config-airbnb`, `eslint-plugin-react`, and `eslint-plugin-prettier`
 - A `.prettierrc` file with a few custom settings
