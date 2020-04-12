@@ -10,6 +10,8 @@ This is a template repository for new Next.js projects. It includes some opinion
 
 Original Next.js README follows below...
 
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
