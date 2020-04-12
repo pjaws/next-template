@@ -1,4 +1,4 @@
-export default {
+const theme = {
   breakpoints: ['36em', '48em', '64em', '78em'],
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 80],
   colors: {
@@ -47,3 +47,12 @@ export default {
     },
   },
 };
+
+theme.mediaQueries = {
+  sm: `@media screen and (min-width: ${theme.breakpoints[0]})`,
+  md: `@media screen and (min-width: ${theme.breakpoints[1]})`,
+  lg: `@media screen and (min-width: ${theme.breakpoints[2]})`,
+  xl: `@media screen and (min-width: ${theme.breakpoints[3]})`,
+};
+
+export default theme;
