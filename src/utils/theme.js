@@ -41,7 +41,9 @@ export default {
     primary: {
       color: 'white',
       bg: 'primary',
-      hoverBg: 'purple',
+      ':hover': {
+        bg: 'purple',
+      },
     },
   },
 };
