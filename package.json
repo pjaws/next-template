@@ -1,7 +1,6 @@
 {
-  "name": "sale-hero-next",
+  "name": "next-template",
   "version": "0.3.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
